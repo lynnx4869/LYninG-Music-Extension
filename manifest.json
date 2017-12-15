@@ -1,0 +1,15 @@
+{
+    "name": "LYninG",
+    "version": "1.0.0",
+    "description": "A Music Player For Chrome Extension",
+    "permissions": ["activeTab", "bookmarks"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "LYninG",
+        "default_icon": "static/images/icon.png"
+    },
+    "manifest_version": 2
+}
